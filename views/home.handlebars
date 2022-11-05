@@ -1,0 +1,80 @@
+<!-- sign up modal start -->
+
+<div id "modal-sign-up" class="modal">
+    <div id="modal-background-signup" class="modal-background"></div>
+
+    <div class="modal-content">
+        <div class="box">
+            <h1 class="title">Register</h1>
+            <!--bulma signup form-->
+            <form id="signup-form">
+                <div class="field">
+                    <p class="control has-icons-left has-icons-right">
+                        <input
+                            id="firstname-signup"
+                            class="input"
+                            type="text"
+                            placeholder="First Name"
+                            required
+                        />
+                        <span class="icon is-small is-left">
+                            <i class="fa fa-regular fa-user"></i>
+                        </span>
+                    </p>
+                </div>
+                <div class="field">
+                    <p class="control has-icons-left has-icons-right">
+                        <input
+                            id="lastname-signup"
+                            class="input"
+                            type="text"
+                            placeholder="Last Name"
+                            required
+                        />
+                        <span class="icon is-small is-left">
+                            <i class="fa fa-regular fa-user"></i>
+                        </span>
+                    </p>
+                </div>
+                <div class="field">
+                    <p class="control has-icons-left has-icons-right">
+                        <input
+                            id="email-signup"
+                            class="input"
+                            type="email"
+                            name="email"
+                            placeholder="Email"
+                            required
+                        />
+                        <span class="icon is-small is-left">
+                            <i class="fa fa-envelope"></i>
+                        </span>
+                    </p>
+                </div>
+                <div class="field">
+                    <p class="control has-icons-left">
+                        <input
+                            id="password-signup"
+                            class="input"
+                            type="password"
+                            placeholder="Password"
+                            minlength="8"
+                    </p>
+                </div>
+                <div class="control">
+                    <button
+                        id="#submit-signup"
+                        class="button is-primary"
+                        type="submit">Submit</button>
+                </div>
+            </form>
+            <!--bulma sign-up form end-->
+        </div>
+    </div>
+    <button
+        id="modal-close-signup"
+        class="modal-close is-large"
+        aria-label="close"></button>
+</div>
+<!--modal signup end-->
+<!--modal login start-->
