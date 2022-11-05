@@ -50,7 +50,7 @@ tbody,label {
 }
 
 .fa-pencil, .fa-trash {
-    coursor: pointer;
+    cursor: pointer;
 }
 
 .overflow {
