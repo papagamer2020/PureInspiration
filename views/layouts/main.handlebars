@@ -30,13 +30,17 @@
                             <a id="home-link" class="is-size-3 navbar-item" href="/">Pure Inspriation</a>
                         </div>
                         <div class="navbar-end">
+                            <button id="Home" class="px-3 is-size-4 navbar-item btn-no-style">Home</button>
+                            <button id="About-Us" class="px-3 is-size-4 navbar-item btn-no-style">About Us</button>
+                            <button id="Donation" class="px-3 is-size-4 navbar-item btn-no-style">Donations</button>                
+                            <button id="Calendar" class="px-3 is-size-4 navbar-item btn-no-style">Calendar</button>
                             {{#if loggedIn}}
                                 <button id="MyAccount" class="px-3 is-size-4 navbar-item btn-no-style">My Account</button>
                                 <button id="logout" class="px-3 is-size-4 navbar-item btn-no-style">Logout</button>
                             {{else}}
                                 <button id="signup"
                                     class="px-3 is-size-4 navbar-item js-modal-trigger btn-no-style"
-                                    data-target="modal-sign-up">Join Us</button>
+                                    data-target="modal-sign-up">Find your Inspiration</button>
                                 <button 
                                     id="login" 
                                     class="px-3 is-size-4 navbar-item btn-no-style"
