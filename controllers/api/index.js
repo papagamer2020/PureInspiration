@@ -1,9 +1,9 @@
-const router = require("express").Router();
+//const router = require("express").Router();
 
 //routes will be required in here
-const userRoutes = require("./userRoutes");
+//const userRoutes = require("./userRoutes");
 
 //routes will be setup here
-router.use('/users', userRoutes);
+//router.use('/users', userRoutes);
 
-module.exports = router;
+//module.exports = router;
